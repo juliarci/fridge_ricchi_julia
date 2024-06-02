@@ -1,13 +1,12 @@
 <template>
   <v-container>
-    Recherche d'un aliment
     <FormText @update="update"></FormText>
-    <FridgeFoodList :pcritere="keyWord"></FridgeFoodList>
+    <ProductList :pcritere="keyWord"></ProductList>
   </v-container>
 </template>
 
 <script setup>
-import FridgeFoodList from "@/components/FridgeFoodList.vue";
+import ProductList from "@/components/ProductList.vue";
 import FormText from "@/components/FormText.vue";
 import { ref } from "vue";
 

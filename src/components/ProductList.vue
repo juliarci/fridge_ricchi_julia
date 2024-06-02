@@ -12,6 +12,7 @@
       </v-card>
     </v-col>
   </v-row>
+  <v-img src="/Users/Julia/Documents/École /ISIS/FIA3/Technologies web/frigo_ricchi_julia/src/assets/closedFridge.png"></v-img>
 </template>
 
 <script setup>

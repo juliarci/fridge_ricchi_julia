@@ -1,7 +1,7 @@
 <template>
-  <Fridge/>
+  <Products/>
 </template>
 
 <script setup>
-import Fridge from "@/components/Fridge.vue";
+import Products from "@/components/Products.vue";
 </script>
